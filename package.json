@@ -4,7 +4,8 @@
   "description": "find databases of employees",
   "main": "trkemp.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon trkemp.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
     "console.table": "^0.10.0",
     "inquirer": "^7.2.0",
     "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
