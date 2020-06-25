@@ -121,7 +121,7 @@ function addDepart() {
       {
         name: "id",
         type: "input",
-        message: "what role does your employee have?",
+        message: "what number id does your employee have?",
       },
       {
         name: "department",
