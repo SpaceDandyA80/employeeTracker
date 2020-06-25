@@ -150,7 +150,7 @@ function addRole() {
       {
         name: "id",
         type: "input",
-        message: "what id does your employee have?",
+        message: "what id number does your employee have?",
       },
       {
         name: "title",
